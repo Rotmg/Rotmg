@@ -2,9 +2,16 @@ This is an autoit script with the following features:
 
 Automatically use health pot if you fall below 0.75 percent and you have one in your inventory
 
-Automatically picks up any tier 9 or better gear and health/mana pots
+Automatically picks up any tier 9 or better gear and health/mana/stat pots
 
 Automatically teleport to nexus if your health falls below 50%
+
+
+
+To use it simply download http://www.autoitscript.com/site/autoit/ and double click on saveme.au3.
+
+Since it's rough around the edges I usually run it within their editor with F5
+
 
 If you search for 
 If WinActive($handle) Then 
