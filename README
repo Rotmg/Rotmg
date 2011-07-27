@@ -18,5 +18,8 @@ It's not the smartest script in the world but it was my first programming experi
 
 
 
-As part of the upload I've included some python scripts that grab the latest image catalog from the pixel editor and extracts all the images and outputs checksums that can be used by saveme.au3. You will need lxml installed to use this and it hasn't been tested on anything but linux.
+As part of the upload I've included some python scripts that grab the latest image catalog from the pixel editor and extracts all the images and outputs checksums that can be used by saveme.au3. You will need lxml installed to use this and it hasn't been tested on anything but linux. 
+
+The main script is list.py which will grab all the images and generate checksums in a way you can paste into the other script. 
+The other script you need is info.py which will generate another dictionary that's used to determine what tier and what item type each item is. That requires you extract the data in info.xml from the .swf which you can do relatively easily with Yogda. Just open up the swf and search for the name of an item and find the large XML chunk. I searched for Mithril Shield. Copy and paste that entire XML file into info.xml replacing what's there and then run info.py, it'll output what you need to copy any paste.
 
