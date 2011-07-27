@@ -7,7 +7,7 @@ This is an autoit script with the following features:
 Automatically use health pot if you fall below 0.75 percent and you have one in your inventory
 
 
-Automatically teleport to nexus if your health falls below 50%
+Automatically teleport to nexus if your health falls below 50%. By default this key in the script is {TAB} (which means tab is the key it sends when you're below 50% health)  If you'd like to change that search for {TAB} in the script and replace with whatever you use, maybe {F5} if you use the default keys.
 
 
 DISABLED! THIS IS CHEATING AND IS NOW DISABLED!
