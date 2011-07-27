@@ -1140,7 +1140,8 @@ Func startover();i declare it
 			
 			
 			If $full >= 0 and $empty >= 0 Then
-				grabItem($full,$empty)
+				; DISABLED, THIS IS CHEATING
+                                ; grabItem($full,$empty)
 			EndIf
 			setMsg()
 			sleep(10)
