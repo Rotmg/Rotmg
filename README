@@ -1,0 +1,22 @@
+This is an autoit script with the following features:
+
+Automatically use health pot if you fall below 0.75 percent and you have one in your inventory
+
+Automatically picks up any tier 9 or better gear and health/mana pots
+
+Automatically teleport to nexus if your health falls below 50%
+
+If you search for 
+If WinActive($handle) Then 
+
+you'll see the logic that's being executed. Change it and make it better.
+
+
+It's not the smartest script in the world but it was my first programming experience and it works well enough. You have to disable it if you're doing a trade and it'll keep porting you to the nexus every 10 seconds if you're below 50%.
+
+
+
+
+
+As part of the upload I've included some python scripts that grab the latest image catalog from the pixel editor and extracts all the images and outputs checksums that can be used by saveme.au3. You will need lxml installed to use this and it hasn't been tested on anything but linux.
+
