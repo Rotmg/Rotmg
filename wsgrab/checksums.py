@@ -38,10 +38,10 @@ for f in os.listdir("pics"):
     res.extend(get_colors(os.path.join("pics",f)))
 """ 
 
-res= get_colors("pics/9157313.png") 
-print zlib.crc32("+" + "+".join((str(x) for x in res))) & 0xFFFFFFFF
+#res= get_colors("pics/9157313.png") 
+#print zlib.crc32("+" + "+".join((str(x) for x in res))) & 0xFFFFFFFF
 #print len(res)
-print "\n".join((str(x) for x in res))
+#print "\n".join((str(x) for x in res))
 #res = set(res)
 
 #print len(res)
